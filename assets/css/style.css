@@ -114,3 +114,39 @@ footer {
 .social {
     margin-bottom: 27px;
 }
+
+@media only screen and (min-width:768px) {
+    main {
+        max-width: 640px;
+        margin: 0 auto;
+    }
+    h1 {
+        font-size: 48px;
+        line-height: 60px;
+    }
+    p {
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+    .formstyle {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    input[type=text] {
+        width: 421px;
+        margin-right: 13px;
+    }
+    button {
+        width: 200px;
+    }
+    .stats img {
+        margin-top: 94px;
+        margin-bottom: 72px;
+    }
+}
+
+.rights {
+    font-size: 12px;
+    color: #969696;
+}
