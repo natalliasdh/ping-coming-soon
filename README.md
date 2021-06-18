@@ -14,7 +14,7 @@ Users should be able to:
 	- The email address is not formatted correctly (i.e. a correct email address should have this structure: `name@host.tld`). The message for this error should say *"Please provide a valid email address"*
 
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://natalliasdh.github.io/ping-coming-soon/](https://natalliasdh.github.io/ping-coming-soon/)
 
 
 - Semantic HTML5 markup
