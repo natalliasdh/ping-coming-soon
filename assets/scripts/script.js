@@ -10,7 +10,10 @@ formNotify.addEventListener('submit', (event) => {
 
 
 buttonNotify.addEventListener('click', () => {
-    if ((email.value == '') || (!regEmail.test(email.value))) {
+    if (email.value == '') {
+        divError.textContent = "Whoops! It looks like you forgot to add your email";
+        email.style.borderColor = "red";
+    } else if (!regEmail.test(email.value)) {
         divError.textContent = "Please provide a valid email address";
         email.style.borderColor = "red";
     } else {
