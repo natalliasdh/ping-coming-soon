@@ -150,3 +150,12 @@ footer {
     font-size: 12px;
     color: #969696;
 }
+
+#warning {
+    color: #FF5466;
+    font-style: italic;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 0.15px;
+    margin-left: 20px;
+}
